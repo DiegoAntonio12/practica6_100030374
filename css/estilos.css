@@ -7,8 +7,9 @@
 }
 
 body {
-    background-color: var(--color-celeste-suave);
+    background-color: var(--color-celeste-suave) !important;
     color: var(--color-azul-profundo);
+    padding-top: 76px;
 }
 
 .navbar {
@@ -31,24 +32,25 @@ body {
 }
 
 .btn-outline-primary {
-    color: var(--color-azul-medio);
-    border-color: var(--color-azul-medio);
+    color: var(--color-azul-medio) !important;
+    border-color: var(--color-azul-medio) !important;
 }
 
 .btn-outline-primary:hover {
-    background-color: var(--color-azul-medio);
-    border-color: var(--color-azul-medio);
-    color: #ffffff;
+    background-color: var(--color-azul-medio) !important;
+    border-color: var(--color-azul-medio) !important;
+    color: #ffffff !important;
 }
 
 .custom-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid var(--color-azul-claro);
+    background-color: #ffffff;
 }
 
 .custom-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 1rem 3rem rgba(3, 44, 96, 0.15) !important;
+    box-shadow: 0 1rem 3rem rgba(3, 44, 96, 0.2) !important;
 }
 
 .table-dark {
